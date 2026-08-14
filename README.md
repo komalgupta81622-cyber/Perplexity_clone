@@ -25,7 +25,7 @@ Axios
 LLM API
 Embeddings
 Server-Sent Events (SSE)
-📁 Backend Structure
+
 backend/
 ├── src/
 │   ├── agents/
@@ -105,14 +105,6 @@ dist
 
 The backend uses SearXNG for search results.
 
-Make sure SearXNG is running locally at:
-
-http://localhost:8080
-
-The backend sends requests to:
-
-http://localhost:8080/search
-
 with parameters such as:
 
 q
@@ -139,10 +131,6 @@ Endpoint	Method	Purpose
 /api/writing	POST	AI writing assistant
 /api/suggestion	POST	Generate suggestions
 Example: YouTube Search
-
-POST
-
-http://localhost:3000/api/youtube
 
 Request body:
 
